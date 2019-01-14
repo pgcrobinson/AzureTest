@@ -8,10 +8,10 @@ def hello_world():
     return 'Hello Anish, how are you?'
 
 
-if __name__ =='__main__':
-    HOST = os.environ.get('SERVER_PORT','localhost')
-    try:
-        PORT = int(os.environ.get('SERVER_PORT','5555'))
-    except ValueError:
-        PORT =5555
-    app.run()
+# if __name__ =='__main__':
+#     HOST = os.environ.get('SERVER_PORT','localhost')
+#     try:
+#         PORT = int(os.environ.get('SERVER_PORT','5555'))
+#     except ValueError:
+#         PORT =5555
+#     app.run()
